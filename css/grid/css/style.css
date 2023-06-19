@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    background-color: red;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+}
+.grid{
+    display: grid;
+    margin: auto;
+    max-width: 400px;
+
+}
+.colunas1{
+    grid-template-columns: 33% 33% 33%;
+}
+.colunas2{
+    grid-template-columns: 2fr 3fr 2fr;
+}
+.linhas1{
+    grid-template-rows: 50px 100px 50px 150px;
+}
+.item{
+    background-color: turquoise;
+    margin: 5px;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    font-size: 1.5rem;
+}

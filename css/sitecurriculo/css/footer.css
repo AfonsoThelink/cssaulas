@@ -1,0 +1,12 @@
+footer{
+    margin-top: 2em;
+    height: 100px;
+    background-color: var(--secundaria);
+}
+.icons{
+    display: flex;
+}
+footer img{
+    justify-content: space-evenly;
+
+}

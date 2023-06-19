@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --primaria: #15ff00;
+    --secundaria: #0004ff ;
+    --terceira: #ff0000 ;
+}
+body{
+    background-color: wheat;
+}
+section{
+    display: flex;
+}
+.primeira > .Div1{
+    flex-direction: column;
+    background-color: var(--primaria);
+    height: 50px;
+    width: 30%;
+}
+.primeira > .Div1s1{
+    flex-direction: column;
+    background-color: var(--secundaria);
+    height: 50px;
+    width: 30%;
+}
+.primeira > .Div1s2{
+    flex-direction: column;
+    background-color: var(--terceira);
+    height: 50px;
+    width: 30%;
+}
+.segunda{
+    flex-direction: row-reverse;
+}
+.segunda > .Div2{
+    flex-direction: column;
+    background-color: var(--primaria);
+    height: 50px;
+    width: 30%;
+}
+.segunda > .Div2s1{
+    flex-direction: column;
+    background-color: var(--secundaria);
+    height: 50px;
+    width: 30%;
+}
+.segunda > .Div2s2{
+    flex-direction: column;
+    background-color: var(--terceira);
+    height: 50px;
+    width: 30%;
+}
+.terceira{
+    justify-content: space-between;
+}
+.terceira > .Div3{
+    justify-content: space-between;
+    background-color: var(--primaria);
+    height: 50px;
+    width: 30%;
+}
+.terceira > .Div3s1{
+    justify-content: space-between;
+    background-color: var(--secundaria);
+    height: 50px;
+    width: 30%;
+}
+.terceira > .Div3s2{
+    justify-content: space-between;
+    background-color: var(--terceira);
+    height: 50px;
+    width: 30%;
+}
+.quarta{
+    justify-content: space-around;
+}
+.quarta > .Div4{
+    flex-direction: column;
+    background-color: var(--primaria);
+    height: 50px;
+    width: 30%;
+}
+.quarta > .Div4s1{
+    flex-direction: column;
+    background-color: var(--secundaria);
+    height: 50px;
+    width: 30%;
+}
+.quarta > .Div4s2{
+    flex-direction: column;
+    background-color: var(--terceira);
+    height: 50px;
+    width: 30%;
+}

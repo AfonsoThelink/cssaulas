@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --primaria: #97ff8e;
+    --secundaria: #94c1fd ;
+    --terceira: #fd8e8e ;
+    --quarta: #9179ff;
+}
+body{
+    background-color: rgb(240, 240, 240);
+    background-repeat: no-repeat;
+}
+header{
+    display: flex;
+    height: 80vh;
+    
+}
+header h1{
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+main{
+    width: 100%;
+    height: 700px;
+}

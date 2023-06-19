@@ -1,0 +1,15 @@
+body{
+    background-image: linear-gradient(to top, #F8480C,#F00021,#F8480C);
+}
+.box1 > div{
+    background-color: rgba(0, 0 , 0, 0.3);
+    color: black;
+    width: 100%;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+}
+.box1{
+    display: flex;
+}
+    

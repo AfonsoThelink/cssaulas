@@ -1,0 +1,7 @@
+.carrossel{
+    width: 300px;
+    margin: auto;
+}
+.principal{
+    display: flex;
+}

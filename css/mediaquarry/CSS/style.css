@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+.col{
+    float: left;
+    background-color: #ccc;
+    border-radius: 8px;
+    margin: 5px;
+    width: 30%;
+}
+.pricebox{
+    background-color: #fff;
+    border-radius: 8px;
+    color: #555;
+    list-style: none;
+}
+.header{
+    background-color: #ccc;
+    color: #fff;
+    
+}
+.pricebox > li{
+    padding: 5px;
+    border-bottom: 20px solid #eee;
+}
+.btn{
+    background-color: rgb(51, 189, 51);
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+
+
+@media(max-width: 700px){
+    .col{
+        width: 100%;
+    }
+}

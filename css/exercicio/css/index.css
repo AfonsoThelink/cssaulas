@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --cabecalho: #00000080;
+}
+body{
+    background-image: linear-gradient(to top, #DE0CF6, #5100EB, #0C38F6);
+    background-attachment: fixed;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    max-width: 1100px;
+    height: 70%;
+}
+article{
+    display: flex;
+}
+header{
+    background-color: var(--cabecalho);
+    text-align: center;
+    height: 10%;
+    padding: 10px;
+}
+section{
+    max-width: 300px;
+}
+.fakeImagem{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 10px;
+}
+footer{
+    background-color: var(--cabecalho);
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    height: 20%;
+}
+article > section{
+    margin: auto;
+}

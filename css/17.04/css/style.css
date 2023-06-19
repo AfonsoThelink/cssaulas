@@ -1,0 +1,29 @@
+body{
+    background-attachment: fixed;
+    background-image: linear-gradient(50deg,#FA330D, #F5019A, #900DFA);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 70px;
+}
+article h1{
+    text-align:center;
+}
+article p{
+    text-align:right;
+}
+article .boxpadding{
+    border: 1px solid rgb(17, 228, 200);
+   padding: 50px 30px 50px 80px; 
+}
+.box1{
+    border: 1px solid white;
+    padding: 25px 50px 75px 100px;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+.box2 .boxpadding{
+    border: 1px solid white;
+    padding: 25px 50px 75px 100px;
+}

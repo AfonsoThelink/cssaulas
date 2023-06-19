@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    border: 1px solid darkturquoise;
+}
+.img{
+    background-image: linear-gradient(75deg, #0CF87B,#00EAF0, #0C74F8);
+    border: 3px solid darkturquoise;
+    width: 100px;
+    padding: 50px;
+}
+.img{
+    float: right;
+}
+.img2{
+    background-image: linear-gradient(75deg, #0CC6F8,#00F01C, #F8E90C);
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+.titulo{
+    clear: right;
+}
+.clearfix{
+    overflow:auto;
+}

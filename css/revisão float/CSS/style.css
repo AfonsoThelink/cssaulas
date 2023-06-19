@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+    color: white;
+}
+.img{
+    background-image: linear-gradient(75deg, #0CF87B,#00EAF0, #0C74F8);
+    height: 500px;
+    width: 500px;
+    float:left;
+    margin: 10px;
+}

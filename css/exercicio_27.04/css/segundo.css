@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --primaria: #97ff8e;
+    --secundaria: #94c1fd ;
+    --terceira: #fd8e8e ;
+    --quarta: #9179ff;
+}
+body{
+    background-color: wheat;
+}
+.principal{
+    display: flex;
+}
+.principal > .um{
+    background-color: var(--primaria);
+    height: 450px;
+    width: 30%;
+
+}
+.conteudo{
+    background-color: var(--secundaria);
+    height: 450px;
+    width: 70%;
+}
+.conteudo > .cabecalho{
+    background-color: var(--secundaria);
+    height: 225px;
+    width: 100%;
+}
+.conteudo > .conteudo2{
+    background-color: var(--secundaria);
+    height: 225px;
+    width: 100%;
+}
+.conteudo2 > .imagem{
+    background-color: var(--terceira);
+    height: 225px;
+    width: 50%;
+}
+.conteudo2 > .textos{
+    background-color: var(--primaria);
+    height: 100%;
+    width: 50%
+}
+.conteudo2{
+    display: flex;
+}
+.textos{
+    margin: 5px;
+}
+.textos > .texto1{
+    background-color: var(--quarta);
+    height: 50%;
+    width: 100%;
+    margin: 5px;
+}
+.textos > .texto2{
+    background-color: var(--primaria);
+    height: 50%;
+    width: 100%;
+    margin: 5px;
+}
+

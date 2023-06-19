@@ -1,0 +1,17 @@
+body{
+background-color: darkturquoise;
+font-family: Arial, Helvetica, sans-serif;
+}
+.flex-conteiner > div{
+    background-color: white;
+    font-size: 30px;
+    margin: 10px;
+    padding: 20px;
+    width: 33%;
+}
+.flex-conteiner{
+    display: flex;
+}
+main h1{
+    text-align: center;
+}
